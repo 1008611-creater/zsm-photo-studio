@@ -1,0 +1,14 @@
+# Keep upstream research checkouts separate from the product repository.
+_research/
+
+# Local configuration and generated files.
+.env
+.env.*
+!.env.example
+!.env.*.example
+node_modules/
+dist/
+build/
+coverage/
+.DS_Store
+Thumbs.db
