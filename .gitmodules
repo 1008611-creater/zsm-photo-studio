@@ -1,0 +1,3 @@
+[submodule "vendor/CozyClay"]
+	path = vendor/CozyClay
+	url = https://github.com/NomaDamas/CozyClay.git
