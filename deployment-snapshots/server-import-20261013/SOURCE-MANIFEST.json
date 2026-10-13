@@ -1,0 +1,1663 @@
+{
+  "date": "2026-10-13",
+  "scope": "Sanitized source snapshots recovered from running deployments; production untouched; excluded environment credentials, user data, runtime storage, generated/build output and unreviewed media.",
+  "repository": "1008611-creater/zsm-photo-studio",
+  "variants": [
+    {
+      "name": "studio-20261004",
+      "source": "vibephoto-studio",
+      "server": "kaogong",
+      "sourcePath": "/var/www/zsm-photo-studio/current",
+      "relationship": "Current deployed source snapshot; runtime data excluded",
+      "excludedSensitiveAndRuntimeFiles": true,
+      "files": [
+        {
+          "path": ".env.example",
+          "sha256": "b337d4ff20592db51228397d9f20be7648a41c95c4883ed94bd3f48aba140ef2"
+        },
+        {
+          "path": "app/api/image-generation/route.ts",
+          "sha256": "2c597b79ef18e82bf5728b7324c10a54321287288c454e371b08562773ae8d80"
+        },
+        {
+          "path": "app/api/image-result/route.ts",
+          "sha256": "e677bc95affc0340926ac974616d22287a796a8943b84ed4585bd3f22d8bab80"
+        },
+        {
+          "path": "app/ardy/health/route.ts",
+          "sha256": "3f782ade985fb9a5e5da23e4e6fb6332d4a7af0334fbbffbbd006e52a9c2e81a"
+        },
+        {
+          "path": "app/icon.svg",
+          "sha256": "ec449aecd4312331f39d0c4398279d4beac71b9f47d389aa41110cc7ca7b7637"
+        },
+        {
+          "path": "app/layout.tsx",
+          "sha256": "8bf35cb67f6314b8b674fe95d8117d44be8324622ee007f47ec69c9fbdffa0ab"
+        },
+        {
+          "path": "app/lib/adapters.ts",
+          "sha256": "382df85b55de861e5ec93dca47b913733df26934d7220ffbbd68b727cc360d4b"
+        },
+        {
+          "path": "app/lib/beta-experiment.test.ts",
+          "sha256": "c84c8d94d82ccbaa87dc61228100d911d06f71d836da271b210a64cf6c3202bd"
+        },
+        {
+          "path": "app/lib/beta-experiment.ts",
+          "sha256": "3cb1b982927e8cafd30593a9ca25773b451eb1fed77367d6e902b053e8e5abaf"
+        },
+        {
+          "path": "app/lib/contracts.test.ts",
+          "sha256": "33000ad7852354d004cda7fd19c79d0e90d3bb9ca0fd38bf52f90f98aedf9be1"
+        },
+        {
+          "path": "app/lib/contracts.ts",
+          "sha256": "d5926b6cc37317444e2bf7790946144e13d0edf777911763133bb263bcd8ebce"
+        },
+        {
+          "path": "app/lib/cozyclay-handoff.test.ts",
+          "sha256": "39e71084a631e014c28307076913bc5bb2d380ce405bcdc2be5420400459f6e4"
+        },
+        {
+          "path": "app/lib/cozyclay-handoff.ts",
+          "sha256": "f4497d6c7625d81d62cb26349a708e75c5fd03118a2ee879587a3f19aaf45466"
+        },
+        {
+          "path": "app/lib/demo-data.ts",
+          "sha256": "c94ebf70f615a9df62284a483d311912e4e8e3f8833163afa577e823b4f28f47"
+        },
+        {
+          "path": "app/lib/director-pack.test.ts",
+          "sha256": "f12c11c13be3ac135507780856a6b941e87d2181282bc5f7bf1d719847055a39"
+        },
+        {
+          "path": "app/lib/director-pack.ts",
+          "sha256": "09cf35b29e6cbe523df0407dcaaa93c3653b39fc814ea52b51e7e87e9bc590a8"
+        },
+        {
+          "path": "app/lib/order-contract.test.ts",
+          "sha256": "b98fb3002958d3b0880b0bb29821679b60ad5ab6c8804088eec52cacf7d86cc9"
+        },
+        {
+          "path": "app/lib/order-contract.ts",
+          "sha256": "6beaf669769dbe9a060d605f0780d16733222995b3e1f9bc1e7bbd5aa76f1e2e"
+        },
+        {
+          "path": "app/lib/prompt-compiler.test.ts",
+          "sha256": "5c14ce710c4028617a4b906ef1ed8496f19a550225a1d1e675661b181e02d5e9"
+        },
+        {
+          "path": "app/lib/prompt-compiler.ts",
+          "sha256": "dad89eeeef93035a3cf66944d073b594f4388acf3d8f2ec3bb8bb0f17105abdc"
+        },
+        {
+          "path": "app/lib/server/openlux-capabilities.test.ts",
+          "sha256": "3aa29f08aa9ee9e78f1432df194fd0fe6613967bae4b21585fc66215f9b293a3"
+        },
+        {
+          "path": "app/lib/server/openlux-capabilities.ts",
+          "sha256": "8c41d904d5128c8f32e897f06aa9c922a8289cb81a302031b13c605295a58fe1"
+        },
+        {
+          "path": "app/lib/server/openlux.test.ts",
+          "sha256": "5ddaef9ee45ee58f64b626c478ce1c396d02d6d04cf395166fb1a63d75f0bc8e"
+        },
+        {
+          "path": "app/lib/server/openlux.ts",
+          "sha256": "29d003d263ce7e73af9ac3b573dd07f3d541a42fde5b0e345a4dc5347fa6cabd"
+        },
+        {
+          "path": "app/lib/server/result-registry.test.ts",
+          "sha256": "f817b7551c8fcdfb21b814f5e305e0ecd99710bf4b7c80de91e2aa9458ec4db8"
+        },
+        {
+          "path": "app/lib/server/result-registry.ts",
+          "sha256": "0cf1e5d697bb0e0ace7524dc4d15e2c532feba3914fd02789920f6ab22231055"
+        },
+        {
+          "path": "app/lib/studio-state.test.ts",
+          "sha256": "33a872b6c0a0b6d5a8badea0d39c8726f0d1a03ecba7ac46abc78fe23ad3ed77"
+        },
+        {
+          "path": "app/lib/studio-state.ts",
+          "sha256": "4e34f002f0e1e372e4ab70f94cd12b8e5460f3ef711b3d3979d0cb7d040fff2d"
+        },
+        {
+          "path": "app/lib/templates.test.ts",
+          "sha256": "f9a5e8eb900c382bc4dc9dd4490a27bf906abbea621970c43f7e79aeb943afc7"
+        },
+        {
+          "path": "app/lib/templates.ts",
+          "sha256": "af7feccf455c530cdddc1cafd4899d647ab6353ac1c91280c2571c2f407403a0"
+        },
+        {
+          "path": "app/page.tsx",
+          "sha256": "a15847f3db22a99bb9b8725739ecda9fe168a699135f4683eb5eba99b494aad2"
+        },
+        {
+          "path": "app/product-refresh.css",
+          "sha256": "076057d506d64d4a126d8648443909e756ca9508a7dd4db058753b8d7d912dc2"
+        },
+        {
+          "path": "app/studio/page.tsx",
+          "sha256": "9ae424d1022baa007c85beed00cdc3c36f8fee54d40adb86f3aef7d7d93be069"
+        },
+        {
+          "path": "app/studio-beta.css",
+          "sha256": "17f2c644f21ef1af2fd17cf2eb5bc80362c8d67f35cbc2044c83b28f3539ab82"
+        },
+        {
+          "path": "app/studio-enhancements.css",
+          "sha256": "4a06a4523b6d3dec768175f77b124f1f7dc9a85c23e2cf3dd38ffdeb868673a1"
+        },
+        {
+          "path": "app/studio.css",
+          "sha256": "ec78cf70374d4968c35e6301b371767ba214a3491e7eceb408deed3d8a965cfa"
+        },
+        {
+          "path": "app/styles.css",
+          "sha256": "d875c3fac171714ea89d4e0752739df365170ea2965a0bd1f8be3bc1ede4e3d2"
+        },
+        {
+          "path": "app/v1/motion/me/route.ts",
+          "sha256": "9429daa42b890fd368717752b80dc14ee21d2b335a71f296ae2054369596d435"
+        },
+        {
+          "path": "app/visual-upgrade.css",
+          "sha256": "8cf99004c26f0f593a6d393ebbd3c3c3a9b8ec033b01d65da07258f67f17ad75"
+        },
+        {
+          "path": "components/cozyclay-director.tsx",
+          "sha256": "f35d6abfab203a421d9f3150bad4ef901b0a46cffc08a8f131ddc7b521d9f0ac"
+        },
+        {
+          "path": "components/expert-workspace.tsx",
+          "sha256": "7f18c848755e884e9d7f8c9ab7592ba40b7d5af9bc9d067efe391a27b173bf0f"
+        },
+        {
+          "path": "components/quick-creation.tsx",
+          "sha256": "dce544ff8d296358b9ed52abdee1cc69b71f91af09d766737773c8461da0133a"
+        },
+        {
+          "path": "components/scene-viewport.tsx",
+          "sha256": "314124933db558410e53f9857b4869242c759b2c9bcf28398b6924c42aaeba64"
+        },
+        {
+          "path": "components/studio.tsx",
+          "sha256": "a387e6b4254bfca337e7d75af004ee72f38a14dcc30b18ebb0129735d9ca2f57"
+        },
+        {
+          "path": "eslint.config.mjs",
+          "sha256": "8a20d48a5c0ec0e7235d75ff99b0833286cc5358792cfcf9964a3b0b4ca5e53f"
+        },
+        {
+          "path": "next-env.d.ts",
+          "sha256": "1b59d4c6b83807db275d43f3cf2cc8e9323f465fab764eea091cc5becd5bad37"
+        },
+        {
+          "path": "next.config.ts",
+          "sha256": "15a6bfe60e112aa48b38efb1792f253288adc55ca38a155bfb96d67cb328bf3e"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "b0ae70cedcfa731a31fff0ad9b3fa116c004eed77e99d6d905e1f8befef6a3a2"
+        },
+        {
+          "path": "package.json",
+          "sha256": "229d639038aa44ee383059fd54f6a73f0c36e85092b2feb8a4da3a02fd72c0ed"
+        },
+        {
+          "path": "public/ardy/cskel27-rest.json",
+          "sha256": "d92bf8498faff7cd01a4c7e796d9dcff1b4422fd58d871ff4e1a572ab51efbcc"
+        },
+        {
+          "path": "public/cozyclay/ai-camera-control/index.html",
+          "sha256": "76aa883d3d9267f70c1ed50da3f1ec8544f7dc89a3259fbd47225016189747e3"
+        },
+        {
+          "path": "public/cozyclay/app/index.html",
+          "sha256": "3d5eb319a532541d6ff4f6054419db712b41383403083d66dd32f291991d19d6"
+        },
+        {
+          "path": "public/cozyclay/ardy/cskel27-rest.json",
+          "sha256": "d92bf8498faff7cd01a4c7e796d9dcff1b4422fd58d871ff4e1a572ab51efbcc"
+        },
+        {
+          "path": "public/cozyclay/assets/analytics-BgbJMHcQ.js",
+          "sha256": "aaeb1eff9b71506314793e2739c78326de1f6c44e5f2609a6c1d5efa0baf2d2b"
+        },
+        {
+          "path": "public/cozyclay/assets/app-C06I3b5J.js",
+          "sha256": "c5813a11e7a487b65588fecec83c302c64e15c3e3de4293dd7efa1a66ce2502f"
+        },
+        {
+          "path": "public/cozyclay/assets/app-DHj2cMkL.css",
+          "sha256": "9a2e629c94f37ff029c49a6ba01bcd1c7b5a418793afa99a660936fe85325fd2"
+        },
+        {
+          "path": "public/cozyclay/assets/basis_transcoder-o4Hde_L7.js",
+          "sha256": "8478b5b6d6b74e7d3082b89f6417321d8d1dc0307f2b30d4484bb11b441696a1"
+        },
+        {
+          "path": "public/cozyclay/assets/basis_transcoder-VXdx5NbI.wasm",
+          "sha256": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a"
+        },
+        {
+          "path": "public/cozyclay/assets/config-CBqKv9il.css",
+          "sha256": "0e538ffaf28a11766af521f252813e6ef97835a34380403ca97d735aed947b66"
+        },
+        {
+          "path": "public/cozyclay/assets/config-Cs1IIucg.js",
+          "sha256": "353599380933f3e1ed336d5ed9bbde06271e08118be63969e52a2a1418d02586"
+        },
+        {
+          "path": "public/cozyclay/assets/demo-Bhlwv2px.js",
+          "sha256": "0b1b157e3e03b3d8bdc509a3d2d5ce0f8fa5ed92e4a8bf634eb958d5bc3eb28f"
+        },
+        {
+          "path": "public/cozyclay/assets/draco_decoder-C32yEggz.wasm",
+          "sha256": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2"
+        },
+        {
+          "path": "public/cozyclay/assets/draco_decoder-fzg4nYZr.js",
+          "sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04"
+        },
+        {
+          "path": "public/cozyclay/assets/draco_decoder-Z1_iN-Ht.wasm",
+          "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+        },
+        {
+          "path": "public/cozyclay/assets/draco_wasm_wrapper-DxJM36Ib.js",
+          "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8"
+        },
+        {
+          "path": "public/cozyclay/assets/draco_wasm_wrapper-fZCQGLGb.js",
+          "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+        },
+        {
+          "path": "public/cozyclay/assets/first-shot-handoff-D1_AcFC2.js",
+          "sha256": "30a1271cf3abc0678f98049cbc41b37901577d341f11d1d7f43ce2feb6869fb3"
+        },
+        {
+          "path": "public/cozyclay/assets/landing-BNOJiLl6.js",
+          "sha256": "3f17e3bf840e29154090be217e978e6ac4380422ba0a5cb6688f34d04cf3cec0"
+        },
+        {
+          "path": "public/cozyclay/assets/module-MzlRiBjI.js",
+          "sha256": "92754e1228d4abedcb0326028c9ab0e468cc67349b6992588c869b61078dfdf1"
+        },
+        {
+          "path": "public/cozyclay/assets/rolldown-runtime-hePW80VL.js",
+          "sha256": "580ad8c58061a4dde99bde0a56905e382f0568516ee2f5b84dbfb52085709021"
+        },
+        {
+          "path": "public/cozyclay/assets/shot-prompt-95705C0R.js",
+          "sha256": "dec53f5c63552b014d5fbb2e9e5106f3066ad70fbccb0d58533e60fb6f27c270"
+        },
+        {
+          "path": "public/cozyclay/assets/shot-prompt-C_g2BHVc.css",
+          "sha256": "106bb872c362815b4f19595bba748f4c0025ab05bcf2e9a572833ac61173814c"
+        },
+        {
+          "path": "public/cozyclay/assets/ticket-BSvyMy23.js",
+          "sha256": "485bbab967a011a6946fbdb51dbc60803c2c4a6d03046abee512894b187fa296"
+        },
+        {
+          "path": "public/cozyclay/assets/workflow-BstQCH02.js",
+          "sha256": "e513036e7df3857c0c538a348b54bd97e69f41ce561d62d63ed389bdb1fbb9af"
+        },
+        {
+          "path": "public/cozyclay/assets/workflow-DlNhqXQO.css",
+          "sha256": "2e20c1c81966f6fcf1aa3bd02c1421b27035b6456bd7865ccc9b1ba1e0e596c5"
+        },
+        {
+          "path": "public/cozyclay/ca5b3d011bb7f59fe4232e1e31aec2f0.txt",
+          "sha256": "d364bd2a3b55af7c6c946153d43deda9f5b89d279ca439ccebcbeb3f3c93b5d5"
+        },
+        {
+          "path": "public/cozyclay/CNAME",
+          "sha256": "9530eeb52fbace8aeaaa4433316eb18fe9cf6039c297c8b5d4994bfa01659599"
+        },
+        {
+          "path": "public/cozyclay/d/index.html",
+          "sha256": "f5d94c8d87e8bac5ed7bca515411d49361bc3d445087888b66524b7090284dc2"
+        },
+        {
+          "path": "public/cozyclay/demo/index.html",
+          "sha256": "b754750da026d6c529e2c333a1fee00c8c53c412e7847d40e7f443f54b2dee16"
+        },
+        {
+          "path": "public/cozyclay/demo/walk-then-stop.npz",
+          "sha256": "b5c34c67917eb72277412125ec9bc0fbc67f0d365c6921d9a932be63893c3ee8"
+        },
+        {
+          "path": "public/cozyclay/favicon.ico",
+          "sha256": "e99790b09462929f4dfb197b8ddd64c51cb13a0a371bd316a7ebc749564907ce"
+        },
+        {
+          "path": "public/cozyclay/fonts/instrument-serif-italic-latin.woff2",
+          "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702"
+        },
+        {
+          "path": "public/cozyclay/fonts/instrument-serif-latin.woff2",
+          "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d"
+        },
+        {
+          "path": "public/cozyclay/fonts/InstrumentSerif-OFL.txt",
+          "sha256": "918aca23eab7bf6b4bec8b3155432bdfc17985d2fbb2516c2629785bd1feff42"
+        },
+        {
+          "path": "public/cozyclay/fonts/inter-latin.woff2",
+          "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4"
+        },
+        {
+          "path": "public/cozyclay/fonts/Inter-OFL.txt",
+          "sha256": "b3195af0fb14368d1b3b10fb9d3fe503b7163ea083859d2ee553bc74da07c320"
+        },
+        {
+          "path": "public/cozyclay/fonts/README.md",
+          "sha256": "ccd5e810ded9d2dc8f9f019f615af181ca4ddbdbeb8125d057e757d005f34ce6"
+        },
+        {
+          "path": "public/cozyclay/greybox-to-video/index.html",
+          "sha256": "38467c73d8b267af6dc126f799a643ade80fa82aa790360846bc8a350384ccf1"
+        },
+        {
+          "path": "public/cozyclay/icons/apple-touch-icon.png",
+          "sha256": "d911d37cab6bf1d638c5adaab7d4af5262b9faa80a4bd3be2f17f2423f6bcb2d"
+        },
+        {
+          "path": "public/cozyclay/icons/icon-192.png",
+          "sha256": "e830edba19ee98d1e334560d0a22fef3cbee0be155c532fc3e6535e83d9034b0"
+        },
+        {
+          "path": "public/cozyclay/icons/icon-32.png",
+          "sha256": "70fce6d279a0368b1f302ef114d24a0e458e577dee1c569e74c561d64399e3e8"
+        },
+        {
+          "path": "public/cozyclay/icons/icon-512.png",
+          "sha256": "d6b2859892d5346590ea344bea86c7b4deab1142d4009608f7bfc9a8e097c006"
+        },
+        {
+          "path": "public/cozyclay/icons/icon-maskable-512.png",
+          "sha256": "025caeebf275c5da73461506b510fc6067eff341db1d09e1fb911e3609cd0561"
+        },
+        {
+          "path": "public/cozyclay/index.html",
+          "sha256": "dc3e15377cc25f6f45e1ade155ffa38b86aa96959cc7b846cead3ef0de1da458"
+        },
+        {
+          "path": "public/cozyclay/LICENSE",
+          "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
+        },
+        {
+          "path": "public/cozyclay/LICENSING.md",
+          "sha256": "5c818d476ec41e14407754a9ffb63c92aa17085ab254e41912b74325ae9d60cd"
+        },
+        {
+          "path": "public/cozyclay/llms.txt",
+          "sha256": "fe81c84be87c14b84a9d6c1fe27abb83ea22090c6272931b0c3adc55f95d35b7"
+        },
+        {
+          "path": "public/cozyclay/manifest.webmanifest",
+          "sha256": "ee7da4374cf814fe2859531b40c1a3cbd72b8931b2b2e422e55562a011951ec9"
+        },
+        {
+          "path": "public/cozyclay/previs-software/index.html",
+          "sha256": "e37c043f0e887e5d2275d2d524914f3a916eb771ecdb4762eb049a967436bf33"
+        },
+        {
+          "path": "public/cozyclay/privacy/index.html",
+          "sha256": "b414844d5724cd1626a792c4c85562c77c8e5f480f5beaec9a232c9527abd4c7"
+        },
+        {
+          "path": "public/cozyclay/robots.txt",
+          "sha256": "513d371bf09d17f4faba4f9a014494720ad34aff3e8f0530cc95d2400f810975"
+        },
+        {
+          "path": "public/cozyclay/scenes/city-block.cclayproject",
+          "sha256": "f01c8f3e3354048fc98265d713028a2ab0c408fbe3f51d598347b15436b01cd5"
+        },
+        {
+          "path": "public/cozyclay/seedance-camera-control/index.html",
+          "sha256": "f63a18e6d8d5f3ac932d2f45b6b5b7b00d5e1da367a503ed3811321b11c815ac"
+        },
+        {
+          "path": "public/cozyclay/site.css",
+          "sha256": "374ee3946cd81fbf32fb1307f2db70468d50e2fc731bcbd0da0b9f28ddc53634"
+        },
+        {
+          "path": "public/cozyclay/sw.js",
+          "sha256": "a4e195bc855e6abbddc61a485e9cbb0a0d77bc036066c2a4054a18b43693cba4"
+        },
+        {
+          "path": "public/cozyclay/THIRD_PARTY_NOTICES.md",
+          "sha256": "cf2c1db517ea7dfb2ef028b43276a5165913cf2bc243504512b894dae6207795"
+        },
+        {
+          "path": "public/cozyclay/THIRD_PARTY_NOTICES_VIBE_WORKFLOW.md",
+          "sha256": "161df260687eab8f0450aba5a38e33f83e03ee50462a10013fbe784b7a44acb4"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/codepoint-index/plane0/0-ff.json",
+          "sha256": "520509578f4b0d9de471b9e91aaf342020c9a7a6caea0075d812f8ee6a51b2ce"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/font-files/latin/sans-serif.normal.100.woff",
+          "sha256": "3f8b41aae3c93654110c84276608b8f63f04c8d8b187e611e56c0ea26d40345d"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/font-files/latin/sans-serif.normal.400.woff",
+          "sha256": "f7f64a47de4b18ea368a75e3ee3d03ba1a9d6853c238cf7160816e25f45a7cb7"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/font-meta/latin.json",
+          "sha256": "759038123462c4eefefbb513cab66c205503a0a0be3c753fc6ddef7d96a7b60e"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/LICENSE",
+          "sha256": "0c9494f44537e17de9fca69134e76514bc5bcaa34266175d69a8e9364c415551"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/README.md",
+          "sha256": "4623960b8a12ba1fe7c7e1903449466a69a549c95ce4b2f46f820cd9c1533637"
+        },
+        {
+          "path": "public/cozyclay/workflow/index.html",
+          "sha256": "fbaea91aceb276b3c8d5254be2b2aedbb13a8a57e8a828219bd006b6b9531dbf"
+        },
+        {
+          "path": "public/cozyclay/zh-overlay.js",
+          "sha256": "3e43372e54ff53d8511974c53e10d1239fa9302fcbbe49ff0a00c21657e3537d"
+        },
+        {
+          "path": "public/fonts/instrument-serif-italic-latin.woff2",
+          "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702"
+        },
+        {
+          "path": "public/fonts/instrument-serif-latin.woff2",
+          "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d"
+        },
+        {
+          "path": "public/fonts/InstrumentSerif-OFL.txt",
+          "sha256": "918aca23eab7bf6b4bec8b3155432bdfc17985d2fbb2516c2629785bd1feff42"
+        },
+        {
+          "path": "public/fonts/inter-latin.woff2",
+          "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4"
+        },
+        {
+          "path": "public/fonts/Inter-OFL.txt",
+          "sha256": "b3195af0fb14368d1b3b10fb9d3fe503b7163ea083859d2ee553bc74da07c320"
+        },
+        {
+          "path": "public/fonts/README.md",
+          "sha256": "ccd5e810ded9d2dc8f9f019f615af181ca4ddbdbeb8125d057e757d005f34ce6"
+        },
+        {
+          "path": "scripts/build-cozyclay.mjs",
+          "sha256": "1ca3c4354ad0326f393d06ad40f8d9b141ce6843f52e5e2c68e52a831cc02ee8"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/codepoint-index/plane0/0-ff.json",
+          "sha256": "520509578f4b0d9de471b9e91aaf342020c9a7a6caea0075d812f8ee6a51b2ce"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/font-files/latin/sans-serif.normal.100.woff",
+          "sha256": "3f8b41aae3c93654110c84276608b8f63f04c8d8b187e611e56c0ea26d40345d"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/font-files/latin/sans-serif.normal.400.woff",
+          "sha256": "f7f64a47de4b18ea368a75e3ee3d03ba1a9d6853c238cf7160816e25f45a7cb7"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/font-meta/latin.json",
+          "sha256": "759038123462c4eefefbb513cab66c205503a0a0be3c753fc6ddef7d96a7b60e"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/LICENSE",
+          "sha256": "0c9494f44537e17de9fca69134e76514bc5bcaa34266175d69a8e9364c415551"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/README.md",
+          "sha256": "4623960b8a12ba1fe7c7e1903449466a69a549c95ce4b2f46f820cd9c1533637"
+        },
+        {
+          "path": "scripts/cozyclay-zh-overlay.js",
+          "sha256": "3e43372e54ff53d8511974c53e10d1239fa9302fcbbe49ff0a00c21657e3537d"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "8bcb95c59aee2bbf2ce44b5fc8f7e84b8bf0f2de3319a557e87d7a957aab95b2"
+        },
+        {
+          "path": "vitest.config.mts",
+          "sha256": "9f7e36bf344148cc3ce58f68f9a8a52e2bbe1052179145cce5df9ec61a97bb1f"
+        }
+      ]
+    },
+    {
+      "name": "shoot-v34-1",
+      "source": "vibephoto-shoot",
+      "server": "kaogong",
+      "sourcePath": "/var/www/zsm-photo-shoot/current",
+      "relationship": "Current deployed source snapshot; runtime data excluded",
+      "excludedSensitiveAndRuntimeFiles": true,
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "63f2c50380ed6303237cce215ce27af1d620d094c215e28d1b1538a3c070e3bb"
+        },
+        {
+          "path": "app/agent/sessions/route.ts",
+          "sha256": "d6b43043fdf2d1592a3276b0fb4a6b3c749f1f9300d767a0c5fbac975f877acb"
+        },
+        {
+          "path": "app/agent/sessions/[id]/route.ts",
+          "sha256": "608d40e6433d3bc028b6cbebf1d4296ca00392467640b05707674f39b52d6338"
+        },
+        {
+          "path": "app/api/director-plan/route.ts",
+          "sha256": "3042f2e158be1ad6682f08c39416f7d7ee815643157450e84a5ad0fb4e795bd7"
+        },
+        {
+          "path": "app/api/image-generation/route.ts",
+          "sha256": "2c597b79ef18e82bf5728b7324c10a54321287288c454e371b08562773ae8d80"
+        },
+        {
+          "path": "app/api/image-result/route.ts",
+          "sha256": "e677bc95affc0340926ac974616d22287a796a8943b84ed4585bd3f22d8bab80"
+        },
+        {
+          "path": "app/api/shoot/auth/[action]/route.ts",
+          "sha256": "710f7874d5fb2078d3d4e7717e64512ec095b55bae6de8643428edba4284abe9"
+        },
+        {
+          "path": "app/api/shoot/[[...path]]/route.ts",
+          "sha256": "689077d11798da99456320042df88703918527671083ac72164dcc2aaec9ac38"
+        },
+        {
+          "path": "app/ardy/health/route.ts",
+          "sha256": "3f782ade985fb9a5e5da23e4e6fb6332d4a7af0334fbbffbbd006e52a9c2e81a"
+        },
+        {
+          "path": "app/icon.svg",
+          "sha256": "ec449aecd4312331f39d0c4398279d4beac71b9f47d389aa41110cc7ca7b7637"
+        },
+        {
+          "path": "app/layout.tsx",
+          "sha256": "8d0b5cda8be5b23923d4de08f84f4751e44c847224fd0d676bd0c30b239bf806"
+        },
+        {
+          "path": "app/lib/adapters.ts",
+          "sha256": "382df85b55de861e5ec93dca47b913733df26934d7220ffbbd68b727cc360d4b"
+        },
+        {
+          "path": "app/lib/beta-experiment.test.ts",
+          "sha256": "c84c8d94d82ccbaa87dc61228100d911d06f71d836da271b210a64cf6c3202bd"
+        },
+        {
+          "path": "app/lib/beta-experiment.ts",
+          "sha256": "3cb1b982927e8cafd30593a9ca25773b451eb1fed77367d6e902b053e8e5abaf"
+        },
+        {
+          "path": "app/lib/contracts.test.ts",
+          "sha256": "33000ad7852354d004cda7fd19c79d0e90d3bb9ca0fd38bf52f90f98aedf9be1"
+        },
+        {
+          "path": "app/lib/contracts.ts",
+          "sha256": "d5926b6cc37317444e2bf7790946144e13d0edf777911763133bb263bcd8ebce"
+        },
+        {
+          "path": "app/lib/cozyclay-handoff.test.ts",
+          "sha256": "39e71084a631e014c28307076913bc5bb2d380ce405bcdc2be5420400459f6e4"
+        },
+        {
+          "path": "app/lib/cozyclay-handoff.ts",
+          "sha256": "f4497d6c7625d81d62cb26349a708e75c5fd03118a2ee879587a3f19aaf45466"
+        },
+        {
+          "path": "app/lib/cozyclay-project.test.ts",
+          "sha256": "fb4f07fd01093ea12187d56b8fbf23ec2228747edcf415c5aeffcbd123f25bd6"
+        },
+        {
+          "path": "app/lib/cozyclay-project.ts",
+          "sha256": "7d128d165b8878bcf3de6c02f12a6bd7f6a77a0ef9bafc61dc78d305ac0db24a"
+        },
+        {
+          "path": "app/lib/demo-data.ts",
+          "sha256": "c94ebf70f615a9df62284a483d311912e4e8e3f8833163afa577e823b4f28f47"
+        },
+        {
+          "path": "app/lib/director-agent.test.ts",
+          "sha256": "706e8c1541cf63db358e5f2a884d0d312a282be06d36d2ed45a01d07883d7a62"
+        },
+        {
+          "path": "app/lib/director-agent.ts",
+          "sha256": "d15445e67b008370da67bbb1c46b0a9439ff44d1795caee9cd1cb798dc2092e0"
+        },
+        {
+          "path": "app/lib/director-pack.test.ts",
+          "sha256": "f12c11c13be3ac135507780856a6b941e87d2181282bc5f7bf1d719847055a39"
+        },
+        {
+          "path": "app/lib/director-pack.ts",
+          "sha256": "09cf35b29e6cbe523df0407dcaaa93c3653b39fc814ea52b51e7e87e9bc590a8"
+        },
+        {
+          "path": "app/lib/order-contract.test.ts",
+          "sha256": "b98fb3002958d3b0880b0bb29821679b60ad5ab6c8804088eec52cacf7d86cc9"
+        },
+        {
+          "path": "app/lib/order-contract.ts",
+          "sha256": "6beaf669769dbe9a060d605f0780d16733222995b3e1f9bc1e7bbd5aa76f1e2e"
+        },
+        {
+          "path": "app/lib/prompt-compiler.test.ts",
+          "sha256": "5c14ce710c4028617a4b906ef1ed8496f19a550225a1d1e675661b181e02d5e9"
+        },
+        {
+          "path": "app/lib/prompt-compiler.ts",
+          "sha256": "dad89eeeef93035a3cf66944d073b594f4388acf3d8f2ec3bb8bb0f17105abdc"
+        },
+        {
+          "path": "app/lib/server/openlux-capabilities.test.ts",
+          "sha256": "3aa29f08aa9ee9e78f1432df194fd0fe6613967bae4b21585fc66215f9b293a3"
+        },
+        {
+          "path": "app/lib/server/openlux-capabilities.ts",
+          "sha256": "8c41d904d5128c8f32e897f06aa9c922a8289cb81a302031b13c605295a58fe1"
+        },
+        {
+          "path": "app/lib/server/openlux.test.ts",
+          "sha256": "5ddaef9ee45ee58f64b626c478ce1c396d02d6d04cf395166fb1a63d75f0bc8e"
+        },
+        {
+          "path": "app/lib/server/openlux.ts",
+          "sha256": "29d003d263ce7e73af9ac3b573dd07f3d541a42fde5b0e345a4dc5347fa6cabd"
+        },
+        {
+          "path": "app/lib/server/result-registry.test.ts",
+          "sha256": "f817b7551c8fcdfb21b814f5e305e0ecd99710bf4b7c80de91e2aa9458ec4db8"
+        },
+        {
+          "path": "app/lib/server/result-registry.ts",
+          "sha256": "0cf1e5d697bb0e0ace7524dc4d15e2c532feba3914fd02789920f6ab22231055"
+        },
+        {
+          "path": "app/lib/server/shoot-access.test.ts",
+          "sha256": "bf8ba687bfe89dfd38f3fa27ed782e6aa3acf7ce820e67d5345d84de98b027ea"
+        },
+        {
+          "path": "app/lib/server/shoot-account-gifts.test.ts",
+          "sha256": "67dfdfe038587e87587521188d41d28513e46fbba07fcc2fc94cefc344f1d3f5"
+        },
+        {
+          "path": "app/lib/server/shoot-accounts-gallery.test.ts",
+          "sha256": "7d7be998c8f3fc7c23ee9bb6cd63428e5549d56887229e5d38272c9a76d8365f"
+        },
+        {
+          "path": "app/lib/server/shoot-api-access.test.ts",
+          "sha256": "d588dac669c119bf38865748a29ee92e34e5ebc6ca46bf13868dd96058483356"
+        },
+        {
+          "path": "app/lib/server/shoot-characters.test.ts",
+          "sha256": "787d8fd8b29ca2cda567805d91611469ae44744a488cd6aea45144edfafec613"
+        },
+        {
+          "path": "app/lib/server/shoot-continuity.test.ts",
+          "sha256": "78c452a3141d1d748088f8348c54f3647d9fe635a21337a1a9e9bd4000598a5c"
+        },
+        {
+          "path": "app/lib/server/shoot-controlled-cover.test.ts",
+          "sha256": "69a7b18041d39f79b21968af520684fcb62881f4d1702dd863fbec7e39c76808"
+        },
+        {
+          "path": "app/lib/server/shoot-destinations.test.ts",
+          "sha256": "af6193c70c070f69b34ff1a4dd9e48e72882d6020c73e5ca2205ce89ea20c110"
+        },
+        {
+          "path": "app/lib/server/shoot-experiment.test.ts",
+          "sha256": "0af80ad293bb0f35c77be5324f6ae6a0ce239a844dc2cba50effe41bee3c8e66"
+        },
+        {
+          "path": "app/lib/server/shoot-gallery-api.test.ts",
+          "sha256": "aec5c70f0d65c903feacb1852ae11d31cd3a0a969e42a12877d5bbc2d40a356d"
+        },
+        {
+          "path": "app/lib/server/shoot-provider.test.ts",
+          "sha256": "97e6332eeb84bccdb6e55d4e8ed0cc12d010281ddaefec186c8c9ee7516b8f8f"
+        },
+        {
+          "path": "app/lib/server/shoot-readiness.test.ts",
+          "sha256": "1c499cc3ba6e34408dbb0f5782a11020f787c69775d462accd7615f6e3cb0222"
+        },
+        {
+          "path": "app/lib/server/shoot-reference-integrity.test.ts",
+          "sha256": "ffc423f0079624720a60b5691341c811f0f3ce44924d31f6c3af1c759cb304aa"
+        },
+        {
+          "path": "app/lib/server/shoot-remix.test.ts",
+          "sha256": "cbe1e84941bb928dd7d081f5f9f5cd64d5236df1cea067cf8d74c1d227d22938"
+        },
+        {
+          "path": "app/lib/server/shoot-revision-drafts.test.ts",
+          "sha256": "6d2cb4b9ebcde9e73fce368f22c3a0a6c1907ba1bdabdc0e30c0db0b963d5655"
+        },
+        {
+          "path": "app/lib/server/shoot-stories.test.ts",
+          "sha256": "76fd1454ab58da842b3c355f2194b14722a986dad189f44814e1a32606f4e3c1"
+        },
+        {
+          "path": "app/lib/server/shoot-submissions.test.ts",
+          "sha256": "a768200674602192d5b4c9fda7505e3abe4e5cacdc0bd3c233df7a5a7030105e"
+        },
+        {
+          "path": "app/lib/server/shoot-system.test.ts",
+          "sha256": "b3e647fd30396c916d5a6fcd1fd921b02efbeca94fb956fcfa979bd62c6ab18a"
+        },
+        {
+          "path": "app/lib/shoot-api.ts",
+          "sha256": "93e4853cc978a6847a375590c96d7552d09b4ec9adb21a306817301a7401c6de"
+        },
+        {
+          "path": "app/lib/shoot-contract.ts",
+          "sha256": "d288960fda186f22b54b506f7c03dd4280548c17e3d8125e2741a2d7b9eca746"
+        },
+        {
+          "path": "app/lib/shoot-dino-chat.test.ts",
+          "sha256": "e0ec5c42b43c0ee5f72443b3c91004aa579e43ee41d3f87a9eaaa50def5ad399"
+        },
+        {
+          "path": "app/lib/shoot-dino-chat.ts",
+          "sha256": "52715c935570b783dfa997fd32f30f0192fe7eae1c3f53d2d36fe4e6c9e91a9b"
+        },
+        {
+          "path": "app/lib/shoot-dino.test.ts",
+          "sha256": "7e57a12f4fd0ad9ea9fbe9658f9fd88db7abcb799cd71df92d0efc48adfe5bd5"
+        },
+        {
+          "path": "app/lib/shoot-dino.ts",
+          "sha256": "36606dc176c6bc180f11a8664d142a7cf799f378da25dcc04baf0c1333838243"
+        },
+        {
+          "path": "app/lib/shoot-draft.ts",
+          "sha256": "47f975b87436aedb60387183add01b77188dfbfac618d71e6ac504dc4d872742"
+        },
+        {
+          "path": "app/lib/shoot-resilience.test.ts",
+          "sha256": "bf880aa3fddf68da4c048ecd2fbcd12eb570f280ccc75e6c636f85cf3010f157"
+        },
+        {
+          "path": "app/lib/shoot-revision-drafts.test.ts",
+          "sha256": "f15e00fe4ec2a4ba1852ffedbdede6bd84db43cc4f8dcd14adb3a57a3a6da9d6"
+        },
+        {
+          "path": "app/lib/shoot-revision-drafts.ts",
+          "sha256": "3061beb9553b11fda14765e8406ffc0411f3844bbd1fdd36d73102dcac48ea5d"
+        },
+        {
+          "path": "app/lib/shoot-settings-schema.ts",
+          "sha256": "2164fc90cb56bba2e47d2c747fdb4b96e85d23e27db3e70ef4e806064a04a724"
+        },
+        {
+          "path": "app/lib/shoot-ui-state.test.ts",
+          "sha256": "8ad4351f2379e7af747892db7d6926b80dfa453e2b21458042028e70cada4841"
+        },
+        {
+          "path": "app/lib/shoot-ui-state.ts",
+          "sha256": "f4b4e059c6c63ac0955db12e4c5c4c8fd3635baa58a3c00c4194447706381a5d"
+        },
+        {
+          "path": "app/lib/studio-state.test.ts",
+          "sha256": "33a872b6c0a0b6d5a8badea0d39c8726f0d1a03ecba7ac46abc78fe23ad3ed77"
+        },
+        {
+          "path": "app/lib/studio-state.ts",
+          "sha256": "4e34f002f0e1e372e4ab70f94cd12b8e5460f3ef711b3d3979d0cb7d040fff2d"
+        },
+        {
+          "path": "app/lib/templates.test.ts",
+          "sha256": "f9a5e8eb900c382bc4dc9dd4490a27bf906abbea621970c43f7e79aeb943afc7"
+        },
+        {
+          "path": "app/lib/templates.ts",
+          "sha256": "af7feccf455c530cdddc1cafd4899d647ab6353ac1c91280c2571c2f407403a0"
+        },
+        {
+          "path": "app/oauth/status/route.ts",
+          "sha256": "97d90fca4937b78cb9ea7f6c286bf8dd35608b5f860a9c477b67bb18a59c1138"
+        },
+        {
+          "path": "app/page.tsx",
+          "sha256": "091944fa7d96d531378b626c1bef26f4a1db1764113ec6436ead059d8103636e"
+        },
+        {
+          "path": "app/product-refresh.css",
+          "sha256": "076057d506d64d4a126d8648443909e756ca9508a7dd4db058753b8d7d912dc2"
+        },
+        {
+          "path": "app/shoot-base.css",
+          "sha256": "1fa1c805317090adf4ed8e9530a120bcd65b9dd3edb4770788e9aa88b292b0c3"
+        },
+        {
+          "path": "app/studio/page.tsx",
+          "sha256": "3c984da3b302d3d00d6443e5dedd090a8a97bfd2b792f39068109a515343e71e"
+        },
+        {
+          "path": "app/studio-beta.css",
+          "sha256": "17f2c644f21ef1af2fd17cf2eb5bc80362c8d67f35cbc2044c83b28f3539ab82"
+        },
+        {
+          "path": "app/studio-enhancements.css",
+          "sha256": "4a06a4523b6d3dec768175f77b124f1f7dc9a85c23e2cf3dd38ffdeb868673a1"
+        },
+        {
+          "path": "app/studio.css",
+          "sha256": "ec78cf70374d4968c35e6301b371767ba214a3491e7eceb408deed3d8a965cfa"
+        },
+        {
+          "path": "app/styles.css",
+          "sha256": "d875c3fac171714ea89d4e0752739df365170ea2965a0bd1f8be3bc1ede4e3d2"
+        },
+        {
+          "path": "app/v1/motion/me/route.ts",
+          "sha256": "9429daa42b890fd368717752b80dc14ee21d2b335a71f296ae2054369596d435"
+        },
+        {
+          "path": "app/visual-upgrade.css",
+          "sha256": "8cf99004c26f0f593a6d393ebbd3c3c3a9b8ec033b01d65da07258f67f17ad75"
+        },
+        {
+          "path": "components/cozyclay-director.tsx",
+          "sha256": "96db80aa367297a30b933a3d1621c822cd4ff65aab230d31242a54c3fa57c1fd"
+        },
+        {
+          "path": "components/director-agent-panel.tsx",
+          "sha256": "6d4eb305792294283eeffa92a54f2d127b771012b46b9c597da2d7411e8e8f7b"
+        },
+        {
+          "path": "components/director-agent.module.css",
+          "sha256": "02c508f685abe3d67df9dd0462938264a6ccb1cd85f1782a76efd5d3b95946cf"
+        },
+        {
+          "path": "components/expert-workspace.tsx",
+          "sha256": "598d41744be0f2af331c9e04965bcbdc791dc8c388741b4f2075714c042912c6"
+        },
+        {
+          "path": "components/quick-creation.tsx",
+          "sha256": "dce544ff8d296358b9ed52abdee1cc69b71f91af09d766737773c8461da0133a"
+        },
+        {
+          "path": "components/scene-viewport.tsx",
+          "sha256": "314124933db558410e53f9857b4869242c759b2c9bcf28398b6924c42aaeba64"
+        },
+        {
+          "path": "components/shoot-characters.module.css",
+          "sha256": "55d10a6c856e8df3fc6b10c7c0bbf7775bdaedece5e17792315bf3fc46550af4"
+        },
+        {
+          "path": "components/shoot-characters.tsx",
+          "sha256": "41939c4a4fbcfd8e34cd02673bde5a517d1654326695a76ef03eec3f3ac16eb3"
+        },
+        {
+          "path": "components/shoot-dino-avatar.tsx",
+          "sha256": "e872179dba843a7898370f92edd180d7db736728661318bd3dd977dea53d237d"
+        },
+        {
+          "path": "components/shoot-dino.module.css",
+          "sha256": "96db56b28987f1a18902bddff4c9b30b8729db2ff163bee49da9d031bacc01dc"
+        },
+        {
+          "path": "components/shoot-dino.tsx",
+          "sha256": "133a9d90613c5143472644882c43234cf0456b50719962ad855e01a5f070e254"
+        },
+        {
+          "path": "components/shoot-discover.module.css",
+          "sha256": "877c26785ffd0daa8f9352fa2c40124fd1380cbf3ef7cb8f1ada92e02770d2ca"
+        },
+        {
+          "path": "components/shoot-discover.tsx",
+          "sha256": "a26a09e01e783871bb5f375a6c5976c41e1f2fdf493b1afe9db6d046858be116"
+        },
+        {
+          "path": "components/shoot-frame.tsx",
+          "sha256": "18cb693bce3c327d431d7c442652b0af7a1bd6c352e6997f08bce85aea9a8435"
+        },
+        {
+          "path": "components/shoot-gallery.module.css",
+          "sha256": "21ff83dec9d75f8eb2d6bb59d681d302ac591201593aa1d104a46a8d60dfffc6"
+        },
+        {
+          "path": "components/shoot-gallery.tsx",
+          "sha256": "0c2427ac4a046aa828d3e4f86bb36c36bba4f179ab0b5f19702ca6a07ec6f0d1"
+        },
+        {
+          "path": "components/shoot-hint.module.css",
+          "sha256": "6056319122db7fa85f17816a389c4d97f074893f732d78a920f70f882bc26cc7"
+        },
+        {
+          "path": "components/shoot-hint.tsx",
+          "sha256": "41e7171436603c519aed5da2deb73ab316144f9d5ce87c459cbb5769a81d9a42"
+        },
+        {
+          "path": "components/shoot-recovery.tsx",
+          "sha256": "196965e3afc102708e71b0fbe98405ebec845303e62aca971bde4de07ac67f7e"
+        },
+        {
+          "path": "components/shoot-scene.tsx",
+          "sha256": "9958a4536c066b208235301ef56fb3b17e0e48d264e2eef37276ae7e87835408"
+        },
+        {
+          "path": "components/shoot-showcase.module.css",
+          "sha256": "210a8abeea97891d425e8d65d4b1a1ed30148b7860cd19e8d27b8978ca255ff5"
+        },
+        {
+          "path": "components/shoot-showcase.tsx",
+          "sha256": "cfe247198d464664a4e05042a6150179e073dae474efaf62dac10fa617851d97"
+        },
+        {
+          "path": "components/shoot-stories.module.css",
+          "sha256": "906d90440fcb6671b1821f9debe5f386995d91adaab63c090582954194f1ed6e"
+        },
+        {
+          "path": "components/shoot-stories.tsx",
+          "sha256": "2823336f562a1a1a3e1d8c8f2efda1dee54c36f4680e4c8e55380ddb293afc05"
+        },
+        {
+          "path": "components/shoot-studio.module.css",
+          "sha256": "3d6456c91d1235d72af4db0c696af41dc0a94cb5d66c2469f2bb009a82c4c3c4"
+        },
+        {
+          "path": "components/shoot-studio.tsx",
+          "sha256": "6038609dcf6fae55e36e0c35daf2f0ff9eb961648215984cd995dbd08669f522"
+        },
+        {
+          "path": "components/shoot-viewer.tsx",
+          "sha256": "e1397b6d688e53d898ae50ec34690b5709b89e32609c013029c87c5bf17e6c70"
+        },
+        {
+          "path": "components/shoot-wall.module.css",
+          "sha256": "95ac68dc119091cec01720ab1ff178b98274b5fc91d930a5395745c69d095b5c"
+        },
+        {
+          "path": "components/shoot-wall.tsx",
+          "sha256": "f26e5272a6466f8243d497ce962818764c16b1c14ba58854cb45899c70ab9119"
+        },
+        {
+          "path": "components/studio.tsx",
+          "sha256": "e4788dfb81f3cea3da73c18413e1238ef1e292bb268face5ac2ff90e0ff30d4a"
+        },
+        {
+          "path": "design/dino/AGENTS.md",
+          "sha256": "90dcd45024e4ae1a05d4f8b13efe42a00988eed43e41e4150581853bc7996346"
+        },
+        {
+          "path": "design/dino/CLAUDE.md",
+          "sha256": "d631d88045f74623d568adfb4783b72e3d1b732330d749bc6c72e6648d4581d3"
+        },
+        {
+          "path": "design/dino/rive.yaml",
+          "sha256": "78e112d25ce649857f03da6b6eb76a5d3d9d6e9c46df1c003af09d4194d8be88"
+        },
+        {
+          "path": "design/dino/scene.rml",
+          "sha256": "df82842b5abbe1f380509b52503638f7956b32fa6607d9aab60e6cc6f7c70818"
+        },
+        {
+          "path": "docs/architecture-stage-1.md",
+          "sha256": "9417755fec6e10d6f28785d029cedef99028e18afdbee1181fd897e1c548be5d"
+        },
+        {
+          "path": "docs/architecture.md",
+          "sha256": "a406ef1e451b0059b6e5b5defbd6f283da9677cc4cf467e7ef4abe3fd6e0b0af"
+        },
+        {
+          "path": "docs/beta-runbook.md",
+          "sha256": "2e899d75d8bcee1df5d97bf90c9799022eb66f1ace59a09b1d4c2965823d5fbf"
+        },
+        {
+          "path": "docs/business-validation.md",
+          "sha256": "88aa419621d4905c38689d598163c96dce9f886ed81fc767c7132dbcb8742d3e"
+        },
+        {
+          "path": "docs/cozyclay-audit.md",
+          "sha256": "d853cd04dbac5f14e67a88e1bedbf4caf97c6cc4b0b96a939c9e5edfb8a135bf"
+        },
+        {
+          "path": "docs/cozyclay-embedded.md",
+          "sha256": "89748a8c83450c96093ffc834d26b8d57b1ac421c19cfdc081fa54c551d109e2"
+        },
+        {
+          "path": "docs/experience-design.md",
+          "sha256": "d4e2423f62b99ade750f23aeadef893dc2f5a7e30c39662837fa8aa7473efdc6"
+        },
+        {
+          "path": "docs/model-strategy.md",
+          "sha256": "451910d35443187f87d07097fa58a964a8ad8ea73236835155fc6d1e74cc2a13"
+        },
+        {
+          "path": "docs/open-questions.md",
+          "sha256": "a7b551f72f32bf013986bb107e92d5ce32ffe23d92a6963107fe8691e4324fd0"
+        },
+        {
+          "path": "docs/openlux-contract.md",
+          "sha256": "c21ef9f828b895ae88631dd781626e7476cb3a5e8634663a2486e6e5179b9365"
+        },
+        {
+          "path": "docs/product-brief.md",
+          "sha256": "0028defd73377e355a30cbd0d7c8e2565eb88658b098ce730f4a7b04257c0bbe"
+        },
+        {
+          "path": "docs/product-route-and-modes.md",
+          "sha256": "b0c8a065dc8fb82da6b10572e11aa33e69ec45d6fb75dc6a43961b37333e38a8"
+        },
+        {
+          "path": "docs/prompts/00-discovery-and-repo.md",
+          "sha256": "35c07b29c13c24f76d5f108505391584be1195270ebd33352ea3a78264f370da"
+        },
+        {
+          "path": "docs/prompts/01-architecture-and-skeleton.md",
+          "sha256": "c8892b57134173b774cb1413004d6850ded2dd3e8dc578dd1482278f6d39e0f2"
+        },
+        {
+          "path": "docs/prompts/02-studio-mvp.md",
+          "sha256": "c54103afac6fdc59eccbd3d6b66e0a2379910a2535b1a1d08a341944c6b5c89f"
+        },
+        {
+          "path": "docs/prompts/03-model-adapters.md",
+          "sha256": "030ea68d5659007b50e2a3c78bebf087495d55f07ac39eea153a068c183a291e"
+        },
+        {
+          "path": "docs/prompts/04-beta-and-launch.md",
+          "sha256": "1896387ee6e549bdeba3cfeed4d731cfa854790699bf6bc8599fed83f3aa5d9d"
+        },
+        {
+          "path": "docs/prompts/04-cozyclay-image-bridge.md",
+          "sha256": "19d1098bc63ca539c8262320796ba13d3df3aa7bf4d087c9b59bed92b5df5356"
+        },
+        {
+          "path": "docs/prompts/05-product-shell-and-modes.md",
+          "sha256": "edc69c836e938308576d1e358aba0517b8e446663cde4d5da541f67b0c19376f"
+        },
+        {
+          "path": "docs/prompts/README.md",
+          "sha256": "fde101733850e71e5d1b6037437a9b7588accd2feaf392797360d49f4b72dbfd"
+        },
+        {
+          "path": "docs/prompts/START-HERE.md",
+          "sha256": "062469a7765e1287f2ff5e36606b0cccf4010068fa40e656b06a542726bf91aa"
+        },
+        {
+          "path": "docs/repository-audit.md",
+          "sha256": "4a47429e5331f2dda37861659e066526bb45a894c2e27258bf1e66d42d859315"
+        },
+        {
+          "path": "docs/risks-and-launch-gates.md",
+          "sha256": "2f7ec33a0a7564a9ff96c7ab6f0b188734ed140f8106ac728d0c1cd83044201d"
+        },
+        {
+          "path": "docs/stage-0-audit.md",
+          "sha256": "3003f4bad2075e14f8a3e313ea2eaf964a21d24dc7e7a5ee76ffe3c8a73803e7"
+        },
+        {
+          "path": "docs/stage-10-verification.md",
+          "sha256": "56bfd6848f5682029c9fd0c174aaf6bd1d3251c195ef484ed09e02ee86d943e6"
+        },
+        {
+          "path": "docs/stage-11-verification.md",
+          "sha256": "181840d9eb52728cfd2ff4a806b8ac47e574831cedfba92efee597a8804cf039"
+        },
+        {
+          "path": "docs/stage-12-visual-upgrade.md",
+          "sha256": "57d9c6c2b7a24915833d7d62ce9bb0624a262d2724f99b6414508dc34d26684d"
+        },
+        {
+          "path": "docs/stage-13-online-openlux-acceptance.md",
+          "sha256": "07ec1ab1528e33ec8b36e228a9eff9997f330a7f2559a62b39f6ffeebbc7fb89"
+        },
+        {
+          "path": "docs/stage-14-result-delivery.md",
+          "sha256": "e43fc3f4d142cbcc6ffad5f042bd7cfab2d99db9af955f3f1d128c000747a926"
+        },
+        {
+          "path": "docs/stage-15-session-order-continuity.md",
+          "sha256": "9bdde971e68dc1661425e1d9c2a6b52d5a6edba2e1c324a4c8c4c6e694aad1e8"
+        },
+        {
+          "path": "docs/stage-16-product-reset.md",
+          "sha256": "8d9019ba5e14dcb352e4e9a7fd7954d08b985528cbbf0518ec367c82c88703e6"
+        },
+        {
+          "path": "docs/stage-17-session-orders.md",
+          "sha256": "f71532d4bd73df4e824f9b735750221589f00416244a5b1ff3e3ca21303a52f6"
+        },
+        {
+          "path": "docs/stage-18-mobile-acceptance.md",
+          "sha256": "a756156c28b6cfa014debdfd7111f51bfe86277e06a3fc7b7e8579a47c402654"
+        },
+        {
+          "path": "docs/stage-19-session-persistence.md",
+          "sha256": "3111cc3b3429fe4af49a34f112dad6b20c4755fd5c8aea534141f290c3bad001"
+        },
+        {
+          "path": "docs/stage-2-verification.md",
+          "sha256": "fb85766dedc6188bbd8bd441a2261f55b82bd04045a2b896cb1e09bf61eeb83c"
+        },
+        {
+          "path": "docs/stage-3-verification.md",
+          "sha256": "24e65acfb9d4ae7052f4dd06558065d7fa893c70031e15df4b878649c809f12a"
+        },
+        {
+          "path": "docs/stage-8-verification.md",
+          "sha256": "f10c6ca3917a73357cfabd9866742ed1ba6d2b9bd51118e5cfc5b9975d1327ab"
+        },
+        {
+          "path": "docs/stage-9-verification.md",
+          "sha256": "f9f9c2edbcc6288462b4f2ab007669fb23bc27538b8ec25c0c4f94360d98b2d7"
+        },
+        {
+          "path": "eslint.config.mjs",
+          "sha256": "8a20d48a5c0ec0e7235d75ff99b0833286cc5358792cfcf9964a3b0b4ca5e53f"
+        },
+        {
+          "path": "next-env.d.ts",
+          "sha256": "1b59d4c6b83807db275d43f3cf2cc8e9323f465fab764eea091cc5becd5bad37"
+        },
+        {
+          "path": "next.config.ts",
+          "sha256": "7eef0317e20b26ab5be5fc408dcbc89ccaa7cc8ef303c825c6bf3495a2d1b929"
+        },
+        {
+          "path": "package-lock.json",
+          "sha256": "a1994399e21bdd244e9486482c62034796e2e956ee842badaa3a7af0f349ee05"
+        },
+        {
+          "path": "package.json",
+          "sha256": "e4f034b677e1755c3d6f4f641caf86d3ebbb488edbcf55509ac149d95dadba02"
+        },
+        {
+          "path": "proxy.ts",
+          "sha256": "4cb023918939265a6e1b770c0c5f0382c3965c3200cb27536c33c3dce9090d56"
+        },
+        {
+          "path": "public/ardy/cskel27-rest.json",
+          "sha256": "d92bf8498faff7cd01a4c7e796d9dcff1b4422fd58d871ff4e1a572ab51efbcc"
+        },
+        {
+          "path": "public/cozyclay/ai-camera-control/index.html",
+          "sha256": "76aa883d3d9267f70c1ed50da3f1ec8544f7dc89a3259fbd47225016189747e3"
+        },
+        {
+          "path": "public/cozyclay/app/index.html",
+          "sha256": "c57fb83afe67ee83dcd31b5bc5763cfe711c2b6b9d5fcbabb97416bb32a978d5"
+        },
+        {
+          "path": "public/cozyclay/ardy/cskel27-rest.json",
+          "sha256": "d92bf8498faff7cd01a4c7e796d9dcff1b4422fd58d871ff4e1a572ab51efbcc"
+        },
+        {
+          "path": "public/cozyclay/assets/analytics-BgbJMHcQ.js",
+          "sha256": "aaeb1eff9b71506314793e2739c78326de1f6c44e5f2609a6c1d5efa0baf2d2b"
+        },
+        {
+          "path": "public/cozyclay/assets/app-C06I3b5J.js",
+          "sha256": "c5813a11e7a487b65588fecec83c302c64e15c3e3de4293dd7efa1a66ce2502f"
+        },
+        {
+          "path": "public/cozyclay/assets/app-CCxPFlde.js",
+          "sha256": "4d7d2dc409b1442e7e543692aaeb146deb3422a0e551cc8b2b751a0edba35942"
+        },
+        {
+          "path": "public/cozyclay/assets/app-DHj2cMkL.css",
+          "sha256": "9a2e629c94f37ff029c49a6ba01bcd1c7b5a418793afa99a660936fe85325fd2"
+        },
+        {
+          "path": "public/cozyclay/assets/basis_transcoder-o4Hde_L7.js",
+          "sha256": "8478b5b6d6b74e7d3082b89f6417321d8d1dc0307f2b30d4484bb11b441696a1"
+        },
+        {
+          "path": "public/cozyclay/assets/basis_transcoder-VXdx5NbI.wasm",
+          "sha256": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a"
+        },
+        {
+          "path": "public/cozyclay/assets/config-CBqKv9il.css",
+          "sha256": "0e538ffaf28a11766af521f252813e6ef97835a34380403ca97d735aed947b66"
+        },
+        {
+          "path": "public/cozyclay/assets/config-Cs1IIucg.js",
+          "sha256": "353599380933f3e1ed336d5ed9bbde06271e08118be63969e52a2a1418d02586"
+        },
+        {
+          "path": "public/cozyclay/assets/demo-Bhlwv2px.js",
+          "sha256": "0b1b157e3e03b3d8bdc509a3d2d5ce0f8fa5ed92e4a8bf634eb958d5bc3eb28f"
+        },
+        {
+          "path": "public/cozyclay/assets/draco_decoder-C32yEggz.wasm",
+          "sha256": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2"
+        },
+        {
+          "path": "public/cozyclay/assets/draco_decoder-fzg4nYZr.js",
+          "sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04"
+        },
+        {
+          "path": "public/cozyclay/assets/draco_decoder-Z1_iN-Ht.wasm",
+          "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+        },
+        {
+          "path": "public/cozyclay/assets/draco_wasm_wrapper-DxJM36Ib.js",
+          "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8"
+        },
+        {
+          "path": "public/cozyclay/assets/draco_wasm_wrapper-fZCQGLGb.js",
+          "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+        },
+        {
+          "path": "public/cozyclay/assets/first-shot-handoff-D1_AcFC2.js",
+          "sha256": "30a1271cf3abc0678f98049cbc41b37901577d341f11d1d7f43ce2feb6869fb3"
+        },
+        {
+          "path": "public/cozyclay/assets/landing-BNOJiLl6.js",
+          "sha256": "3f17e3bf840e29154090be217e978e6ac4380422ba0a5cb6688f34d04cf3cec0"
+        },
+        {
+          "path": "public/cozyclay/assets/module-MzlRiBjI.js",
+          "sha256": "92754e1228d4abedcb0326028c9ab0e468cc67349b6992588c869b61078dfdf1"
+        },
+        {
+          "path": "public/cozyclay/assets/rolldown-runtime-hePW80VL.js",
+          "sha256": "580ad8c58061a4dde99bde0a56905e382f0568516ee2f5b84dbfb52085709021"
+        },
+        {
+          "path": "public/cozyclay/assets/shot-prompt-95705C0R.js",
+          "sha256": "dec53f5c63552b014d5fbb2e9e5106f3066ad70fbccb0d58533e60fb6f27c270"
+        },
+        {
+          "path": "public/cozyclay/assets/shot-prompt-C_g2BHVc.css",
+          "sha256": "106bb872c362815b4f19595bba748f4c0025ab05bcf2e9a572833ac61173814c"
+        },
+        {
+          "path": "public/cozyclay/assets/ticket-BSvyMy23.js",
+          "sha256": "485bbab967a011a6946fbdb51dbc60803c2c4a6d03046abee512894b187fa296"
+        },
+        {
+          "path": "public/cozyclay/assets/workflow-BstQCH02.js",
+          "sha256": "e513036e7df3857c0c538a348b54bd97e69f41ce561d62d63ed389bdb1fbb9af"
+        },
+        {
+          "path": "public/cozyclay/assets/workflow-DlNhqXQO.css",
+          "sha256": "2e20c1c81966f6fcf1aa3bd02c1421b27035b6456bd7865ccc9b1ba1e0e596c5"
+        },
+        {
+          "path": "public/cozyclay/ca5b3d011bb7f59fe4232e1e31aec2f0.txt",
+          "sha256": "d364bd2a3b55af7c6c946153d43deda9f5b89d279ca439ccebcbeb3f3c93b5d5"
+        },
+        {
+          "path": "public/cozyclay/CNAME",
+          "sha256": "9530eeb52fbace8aeaaa4433316eb18fe9cf6039c297c8b5d4994bfa01659599"
+        },
+        {
+          "path": "public/cozyclay/d/index.html",
+          "sha256": "f5d94c8d87e8bac5ed7bca515411d49361bc3d445087888b66524b7090284dc2"
+        },
+        {
+          "path": "public/cozyclay/demo/index.html",
+          "sha256": "b754750da026d6c529e2c333a1fee00c8c53c412e7847d40e7f443f54b2dee16"
+        },
+        {
+          "path": "public/cozyclay/demo/walk-then-stop.npz",
+          "sha256": "b5c34c67917eb72277412125ec9bc0fbc67f0d365c6921d9a932be63893c3ee8"
+        },
+        {
+          "path": "public/cozyclay/director-loader.js",
+          "sha256": "d6d17180b502826d98e3d6d26006ef9cf68bfc89e67a13033e93806dbd89f868"
+        },
+        {
+          "path": "public/cozyclay/favicon.ico",
+          "sha256": "e99790b09462929f4dfb197b8ddd64c51cb13a0a371bd316a7ebc749564907ce"
+        },
+        {
+          "path": "public/cozyclay/fonts/instrument-serif-italic-latin.woff2",
+          "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702"
+        },
+        {
+          "path": "public/cozyclay/fonts/instrument-serif-latin.woff2",
+          "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d"
+        },
+        {
+          "path": "public/cozyclay/fonts/InstrumentSerif-OFL.txt",
+          "sha256": "918aca23eab7bf6b4bec8b3155432bdfc17985d2fbb2516c2629785bd1feff42"
+        },
+        {
+          "path": "public/cozyclay/fonts/inter-latin.woff2",
+          "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4"
+        },
+        {
+          "path": "public/cozyclay/fonts/Inter-OFL.txt",
+          "sha256": "b3195af0fb14368d1b3b10fb9d3fe503b7163ea083859d2ee553bc74da07c320"
+        },
+        {
+          "path": "public/cozyclay/fonts/README.md",
+          "sha256": "ccd5e810ded9d2dc8f9f019f615af181ca4ddbdbeb8125d057e757d005f34ce6"
+        },
+        {
+          "path": "public/cozyclay/greybox-to-video/index.html",
+          "sha256": "38467c73d8b267af6dc126f799a643ade80fa82aa790360846bc8a350384ccf1"
+        },
+        {
+          "path": "public/cozyclay/icons/apple-touch-icon.png",
+          "sha256": "d911d37cab6bf1d638c5adaab7d4af5262b9faa80a4bd3be2f17f2423f6bcb2d"
+        },
+        {
+          "path": "public/cozyclay/icons/icon-192.png",
+          "sha256": "e830edba19ee98d1e334560d0a22fef3cbee0be155c532fc3e6535e83d9034b0"
+        },
+        {
+          "path": "public/cozyclay/icons/icon-32.png",
+          "sha256": "70fce6d279a0368b1f302ef114d24a0e458e577dee1c569e74c561d64399e3e8"
+        },
+        {
+          "path": "public/cozyclay/icons/icon-512.png",
+          "sha256": "d6b2859892d5346590ea344bea86c7b4deab1142d4009608f7bfc9a8e097c006"
+        },
+        {
+          "path": "public/cozyclay/icons/icon-maskable-512.png",
+          "sha256": "025caeebf275c5da73461506b510fc6067eff341db1d09e1fb911e3609cd0561"
+        },
+        {
+          "path": "public/cozyclay/index.html",
+          "sha256": "dc3e15377cc25f6f45e1ade155ffa38b86aa96959cc7b846cead3ef0de1da458"
+        },
+        {
+          "path": "public/cozyclay/LICENSE",
+          "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
+        },
+        {
+          "path": "public/cozyclay/LICENSING.md",
+          "sha256": "5c818d476ec41e14407754a9ffb63c92aa17085ab254e41912b74325ae9d60cd"
+        },
+        {
+          "path": "public/cozyclay/llms.txt",
+          "sha256": "fe81c84be87c14b84a9d6c1fe27abb83ea22090c6272931b0c3adc55f95d35b7"
+        },
+        {
+          "path": "public/cozyclay/manifest.webmanifest",
+          "sha256": "ee7da4374cf814fe2859531b40c1a3cbd72b8931b2b2e422e55562a011951ec9"
+        },
+        {
+          "path": "public/cozyclay/previs-software/index.html",
+          "sha256": "e37c043f0e887e5d2275d2d524914f3a916eb771ecdb4762eb049a967436bf33"
+        },
+        {
+          "path": "public/cozyclay/privacy/index.html",
+          "sha256": "b414844d5724cd1626a792c4c85562c77c8e5f480f5beaec9a232c9527abd4c7"
+        },
+        {
+          "path": "public/cozyclay/robots.txt",
+          "sha256": "513d371bf09d17f4faba4f9a014494720ad34aff3e8f0530cc95d2400f810975"
+        },
+        {
+          "path": "public/cozyclay/scenes/city-block.cclayproject",
+          "sha256": "f01c8f3e3354048fc98265d713028a2ab0c408fbe3f51d598347b15436b01cd5"
+        },
+        {
+          "path": "public/cozyclay/seedance-camera-control/index.html",
+          "sha256": "f63a18e6d8d5f3ac932d2f45b6b5b7b00d5e1da367a503ed3811321b11c815ac"
+        },
+        {
+          "path": "public/cozyclay/site.css",
+          "sha256": "374ee3946cd81fbf32fb1307f2db70468d50e2fc731bcbd0da0b9f28ddc53634"
+        },
+        {
+          "path": "public/cozyclay/sw.js",
+          "sha256": "a4e195bc855e6abbddc61a485e9cbb0a0d77bc036066c2a4054a18b43693cba4"
+        },
+        {
+          "path": "public/cozyclay/THIRD_PARTY_NOTICES.md",
+          "sha256": "cf2c1db517ea7dfb2ef028b43276a5165913cf2bc243504512b894dae6207795"
+        },
+        {
+          "path": "public/cozyclay/THIRD_PARTY_NOTICES_VIBE_WORKFLOW.md",
+          "sha256": "161df260687eab8f0450aba5a38e33f83e03ee50462a10013fbe784b7a44acb4"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/codepoint-index/plane0/0-ff.json",
+          "sha256": "520509578f4b0d9de471b9e91aaf342020c9a7a6caea0075d812f8ee6a51b2ce"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/font-files/latin/sans-serif.normal.100.woff",
+          "sha256": "3f8b41aae3c93654110c84276608b8f63f04c8d8b187e611e56c0ea26d40345d"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/font-files/latin/sans-serif.normal.400.woff",
+          "sha256": "f7f64a47de4b18ea368a75e3ee3d03ba1a9d6853c238cf7160816e25f45a7cb7"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/font-meta/latin.json",
+          "sha256": "759038123462c4eefefbb513cab66c205503a0a0be3c753fc6ddef7d96a7b60e"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/LICENSE",
+          "sha256": "0c9494f44537e17de9fca69134e76514bc5bcaa34266175d69a8e9364c415551"
+        },
+        {
+          "path": "public/cozyclay/unicode-font-resolver/README.md",
+          "sha256": "4623960b8a12ba1fe7c7e1903449466a69a549c95ce4b2f46f820cd9c1533637"
+        },
+        {
+          "path": "public/cozyclay/workflow/index.html",
+          "sha256": "fbaea91aceb276b3c8d5254be2b2aedbb13a8a57e8a828219bd006b6b9531dbf"
+        },
+        {
+          "path": "public/cozyclay/zh-overlay.js",
+          "sha256": "3e43372e54ff53d8511974c53e10d1239fa9302fcbbe49ff0a00c21657e3537d"
+        },
+        {
+          "path": "public/fonts/instrument-serif-italic-latin.woff2",
+          "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702"
+        },
+        {
+          "path": "public/fonts/instrument-serif-latin.woff2",
+          "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d"
+        },
+        {
+          "path": "public/fonts/InstrumentSerif-OFL.txt",
+          "sha256": "918aca23eab7bf6b4bec8b3155432bdfc17985d2fbb2516c2629785bd1feff42"
+        },
+        {
+          "path": "public/fonts/inter-latin.woff2",
+          "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4"
+        },
+        {
+          "path": "public/fonts/Inter-OFL.txt",
+          "sha256": "b3195af0fb14368d1b3b10fb9d3fe503b7163ea083859d2ee553bc74da07c320"
+        },
+        {
+          "path": "public/fonts/README.md",
+          "sha256": "ccd5e810ded9d2dc8f9f019f615af181ca4ddbdbeb8125d057e757d005f34ce6"
+        },
+        {
+          "path": "public/mascot/ans-mascot.png",
+          "sha256": "0ec28e374dda70ed6527903e668119c2029735d0b570a752a92d60e4ffd05659"
+        },
+        {
+          "path": "public/mascot/rive.wasm",
+          "sha256": "a8e6e11a827fcdf49aa141606eb158e29cbb72e95337dd962b724f1823690a74"
+        },
+        {
+          "path": "public/mascot/vibe-dino.riv",
+          "sha256": "39b6d7dfe79a4d64d6dddf4b44eccabcc1f718f09dd3a4d0b2f46e7db0ac71fc"
+        },
+        {
+          "path": "public/mascot/vibe-dino.svg",
+          "sha256": "c007840df341712dfd5ae07384b2eadd9f542b0adcc636cbfea26b4cf048121d"
+        },
+        {
+          "path": "public/rabbit-cyclist.svg",
+          "sha256": "f5018ccf2cc5816239707e414a2b492652948243da49fffa486901c1c91586c1"
+        },
+        {
+          "path": "README.md",
+          "sha256": "90eb053f70d4cfd6e4dd5c696eb2289457417839ace57174f8c912b599dba20d"
+        },
+        {
+          "path": "scripts/build-cozyclay.mjs",
+          "sha256": "b96be03e538eb8e8ff77eb2d6b14ffe46d94e30da4007afa1fece897e421b57b"
+        },
+        {
+          "path": "scripts/build-dino.mjs",
+          "sha256": "734078163cfc3b028591a335a8cb3a968c0cb8aba643c23a239044bedf614053"
+        },
+        {
+          "path": "scripts/check-character-artwork.mjs",
+          "sha256": "b4012a8560b0c39a20a8634d22291dac1246ba5bb1e9130fb25c9b43cc22ad57"
+        },
+        {
+          "path": "scripts/collect-character-candidates.mjs",
+          "sha256": "87c98d346b96312acfbbd05f6db95baabcc85b1b6f582aa00d1535cb084a0d92"
+        },
+        {
+          "path": "scripts/cozyclay-director-loader.js",
+          "sha256": "d6d17180b502826d98e3d6d26006ef9cf68bfc89e67a13033e93806dbd89f868"
+        },
+        {
+          "path": "scripts/cozyclay-product-integration.mjs",
+          "sha256": "4a05034df5c9bf4fbb172fcf25be8e29a731263283188b51f8849a11052c3190"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/codepoint-index/plane0/0-ff.json",
+          "sha256": "520509578f4b0d9de471b9e91aaf342020c9a7a6caea0075d812f8ee6a51b2ce"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/font-files/latin/sans-serif.normal.100.woff",
+          "sha256": "3f8b41aae3c93654110c84276608b8f63f04c8d8b187e611e56c0ea26d40345d"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/font-files/latin/sans-serif.normal.400.woff",
+          "sha256": "f7f64a47de4b18ea368a75e3ee3d03ba1a9d6853c238cf7160816e25f45a7cb7"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/font-meta/latin.json",
+          "sha256": "759038123462c4eefefbb513cab66c205503a0a0be3c753fc6ddef7d96a7b60e"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/LICENSE",
+          "sha256": "0c9494f44537e17de9fca69134e76514bc5bcaa34266175d69a8e9364c415551"
+        },
+        {
+          "path": "scripts/cozyclay-unicode-font-resolver/README.md",
+          "sha256": "4623960b8a12ba1fe7c7e1903449466a69a549c95ce4b2f46f820cd9c1533637"
+        },
+        {
+          "path": "scripts/cozyclay-zh-overlay.js",
+          "sha256": "3e43372e54ff53d8511974c53e10d1239fa9302fcbbe49ff0a00c21657e3537d"
+        },
+        {
+          "path": "scripts/create-showcase.mjs",
+          "sha256": "078e9fa2129f28bf2b7d8026aa981c4d4e4b6aefc55179aaf622f4b93603ce6d"
+        },
+        {
+          "path": "scripts/deploy-delivery-v22.sh",
+          "sha256": "c844d89ab7419c74f0143a610c8c251516ab85cfae6d5091f08772aea7a85902"
+        },
+        {
+          "path": "scripts/deploy-shoot-preview.sh",
+          "sha256": "ff8945619eae12ffbc423942e901d45bd789d4cca23a5843f78079a443fdfd31"
+        },
+        {
+          "path": "scripts/review-gallery.mjs",
+          "sha256": "7eda733b0cb1425ac3dabe0391d1b7b07e36d4c33b5dcd5c84595806c3cec8ca"
+        },
+        {
+          "path": "scripts/shoot-access.mjs",
+          "sha256": "502633b2c4bb40c68ae4b918c86f83c476c1f57d68e564d8b58470d8e74d5ee2"
+        },
+        {
+          "path": "scripts/shoot-continuity-smoke.mjs",
+          "sha256": "72516e63f51e9a62da4ca44095a431bc2b522d8b68acded0140bd37450e5c41c"
+        },
+        {
+          "path": "scripts/shoot-controlled-cover.d.mts",
+          "sha256": "49d4b4210964d28378cecc2ab9355d6340ae24df17666ff4f946bc2e50ee100d"
+        },
+        {
+          "path": "scripts/shoot-controlled-cover.mjs",
+          "sha256": "64d8bb2804a4f7cfa79ce4349a0c08ec0bc3da95b239d329a36b5c22b22eac05"
+        },
+        {
+          "path": "scripts/shoot-cover-experiment.mjs",
+          "sha256": "77e22f8346c006faab4e24565a30ef31ce2d81bf072595d274cd158b098f1661"
+        },
+        {
+          "path": "scripts/shoot-cover-trial.mjs",
+          "sha256": "cb262bd9afd03447da077e94e14299c84f661d276d8d2fb32365d595ed59b0d7"
+        },
+        {
+          "path": "scripts/shoot-destination-smoke.mjs",
+          "sha256": "08f539a7a21bfd0d65ea040e409833f083cf316408371a749248974463631d85"
+        },
+        {
+          "path": "scripts/shoot-remix-smoke.mjs",
+          "sha256": "e65810285944ce24a4c367cda59191e39529d1461445fa6f9b08d503f2ac12c8"
+        },
+        {
+          "path": "scripts/shoot-smoke.mjs",
+          "sha256": "7585a5554ac48e162a35b5b23b37e287ed46191d286fe34301f42df6ffd249a0"
+        },
+        {
+          "path": "scripts/shoot-story-smoke.mjs",
+          "sha256": "9d7183445b750d3c0a6ff32f11b81acedc8238316fa98d8fb7dcd6261580024b"
+        },
+        {
+          "path": "scripts/shoot-worker.mjs",
+          "sha256": "d728359c0756d6b09b66282e229c1d4cf77415c9d56ed1134c68a7cee4b3455d"
+        },
+        {
+          "path": "scripts/v26-verify.mjs",
+          "sha256": "6bc5c70f93e55202fedcc59ac78e60133f996a17d5655d2beabb6a0502180687"
+        },
+        {
+          "path": "scripts/verify-delivery-v22.mjs",
+          "sha256": "85eef10f5f9b0244e0c2fd40048feba5d386f2a2c2a86f412e0fb671320e5185"
+        },
+        {
+          "path": "scripts/verify-openlux-activation.mjs",
+          "sha256": "a5ddfaaad6d4f81f8a707cad437e44278a2b95c42c8ac0bb047f99aff723dde1"
+        },
+        {
+          "path": "scripts/verify-public-v28.mjs",
+          "sha256": "f5b8fb0033b4635b8b4068a8de0d1dfb1debb46a1937a67616b4c04f9d672b4c"
+        },
+        {
+          "path": "scripts/verify-selfserve-v23.mjs",
+          "sha256": "67940052c64e2b6a3f11eba4f177503849f5291369924d2dd46f6ac92e3d2004"
+        },
+        {
+          "path": "scripts/verify-v24.mjs",
+          "sha256": "e66f46db3ef719b06beb4115c6dd908f7952154ba0fd81e58d4f110dd46a05aa"
+        },
+        {
+          "path": "scripts/verify-v24b.mjs",
+          "sha256": "63b48a69edf94b6443c51a7cce8311253a8295ac36716299eb892295777c3f4a"
+        },
+        {
+          "path": "scripts/verify-v25.mjs",
+          "sha256": "763edd3692c15a74193ba0649774e472c697af0d5c17347e1681a253c0b71381"
+        },
+        {
+          "path": "scripts/verify-v27.mjs",
+          "sha256": "88051d142ca24000c5338a3192e40a20385e63eac380c931447a2fd828b33b36"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "8bcb95c59aee2bbf2ce44b5fc8f7e84b8bf0f2de3319a557e87d7a957aab95b2"
+        },
+        {
+          "path": "vitest.config.mts",
+          "sha256": "f4cbd55146ecea0dc411e9f3d665c063b673e9eac4982b6b3e6c7dd27c2d8c42"
+        }
+      ]
+    }
+  ]
+}
