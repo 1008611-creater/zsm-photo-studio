@@ -1,0 +1,1 @@
+var e=`500`;function t(e){if(e===void 0)return 500;let t=Number(e);if(!Number.isSafeInteger(t)||t!==500)throw Error(`The demo prompt cap must match the shared API prompt limit`);return t}var n=``.replace(/\/+$/u,``),r=t(e);export{r as n,n as t};
